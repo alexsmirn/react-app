@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Nike Air Force
+          Nike Air Force 1
         </p>
         <a
           className="App-link"
