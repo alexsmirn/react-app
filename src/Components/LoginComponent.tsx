@@ -2,10 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import {LoginButton} from "./ShopComponent";
 import {Link} from "react-router-dom";
-import {Card, CardComponent} from "./CardComponent";
-import AJ1LowTS from "../images/AJ1LowTS.png";
-import NikeDunkTS from "../images/NikeDunkTravisScott.png";
-import {CardsWrapper, Header} from "../App";
+import {Card} from "./CardComponent";
+
+import {Header} from "../App";
 import {Box} from "../styles/StyledComponents/Box.styled";
 import Svg from "../styles/sprite.svg"
 import {Button} from "../styles/StyledComponents/Button.styled";
@@ -34,7 +33,7 @@ export function LoginComponent() {
                </LoginForm>
                <Header>
                    <ShopButton buttonColor='#6b7d5c'>
-                       <Link to='/portfolio'>
+                       <Link to='/'>
                            Go back to shop <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <use xlinkHref={`${Svg}#goBack-icon`}></use>
                        </svg>
